@@ -1,0 +1,1 @@
+﻿!function(e){"use strict";e(document).ready(function(){e('input[type="checkbox"]').iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"}),Array.prototype.slice.call(document.querySelectorAll(".js-switch")).forEach(function(c){var r=e(c).data("size"),o={color:"#009688"};void 0!==r&&(o.size=r);new Switchery(c,o)})})}(jQuery);

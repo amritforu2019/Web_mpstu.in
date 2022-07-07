@@ -1,0 +1,139 @@
+2021-08-19 13:38:16 - https://payment.atomtech.in/paynetz/epi/fts?login=29062&pass=DAV@1234&ttype=NBFundTransfer&prodid=DAV_PG&amt=25000&txncurr=INR&txnscamt=0&clientcode=MDA3&txnid=1653527&date=19/08/2021%2001:08:16&custacc=1234567890&ru=http://davpgcvns.ac.in/student_portel/student/response.php&udf2=sdf&udf3=8896935191&udf5=1002
+2021-08-19 13:38:18 - 
+<HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Cache-Control" content="No-Cache">
+<meta http-equiv="Expires" content="Tues,01 Jan 1980 00:00:00 GMT">
+<meta http-equiv="pragma" content="no-cache">
+<link rel="SHORTCUT ICON" href="/paynetz/img/favicon.ico" type="image/x-icon" />
+<title>Paynetz</title>
+<script type="text/javascript" src="/paynetz/js/disablerightclick.js"></script>
+
+<style>
+	.bodytxt4 {
+	    font-family: Verdana, Arial, Helvetica, sans-serif;
+	    font-size: 12px;
+	    font-weight: bold;
+	    color: #666666;
+	}
+	.bodytxt {
+	    font-family: Verdana, Arial, Helvetica, sans-serif;
+	    font-size: 13px;
+	    font-weight: normal;
+	    color: #000000;
+	}
+	.bullet1 {
+	    
+	    list-style-type:square;
+	    list-style-position: inside;
+	    list-style-image: none;
+	    font-family: Verdana, Arial, Helvetica, sans-serif;
+	    font-size: 10px;
+	    font-weight: bold;
+	    color: #FF9900;
+	 }
+	 .bodytxt2 {
+	    font-family: Verdana, Arial, Helvetica, sans-serif;
+	    font-size: 8pt;
+	    font-weight: normal;
+	    color: #333333;
+	    
+	  }
+	  A.sac2 {
+	    COLOR: #000000;
+	    font-family: Verdana, Arial, Helvetica, sans-serif;
+	    font-size: 10px;
+	    font-weight: bold;
+	    text-decoration: none;
+	  }
+	  A.sac2:visited {
+	    COLOR: #314D5A; TEXT-DECORATION: none
+	  }
+	  A.sac2:hover {
+	    COLOR: #FF9900; TEXT-DECORATION: underline
+	  }
+</style>
+<script type="text/JavaScript">
+	window.history.go(+1);
+</script>
+</head>
+	    
+<body>
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+  <td align="center" height="5%">&nbsp;</td>
+  </tr>
+  <tr>
+   <td height="90%" align="center">
+			
+	    <table width="80%" border="0" cellpadding="0" cellspacing="1">
+	    <tr>
+	    <td align="center">
+	    <table width="80%"border="0" cellpadding="1" cellspacing="0">
+	    <tr> 
+	    <td align="right" valign="top" width="50%">
+	    <img src="/paynetz/images/processing.gif" width="35" height="35"/></td>
+	    <td align="left" valign="middle"><span class="bodytxt4" valign="middle">
+	    Processing...
+	    </span>
+	    </td>
+	    </tr>
+	    </table>
+	    </td>
+	    </tr>
+	    <tr><td>&nbsp;</td></tr>
+	    <tr>
+	    <td align="center"> 
+	    <table width="80%"border="0" cellpadding="1" cellspacing="0" align="center">
+	    <tr> 
+	    <td align="center" valign="top">
+	    <li class="bullet1"></li>
+	    <span class="bodytxt2" >
+	    You will be redirected to merchant's website. It might take a few seconds.
+	    </span>
+	    </td>
+	    </tr>
+	    <tr> 
+	    <td align="center" valign="top">
+	    <li class="bullet1"></li>
+	    <span class="bodytxt2" >
+	    Please do not refresh the page or click the "Back" or "Close" button of your browser.
+	    </span>
+	    </td>
+	    <tr>
+	    </table>
+	    </td>
+	    </tr>
+	    <tr><td>&nbsp;</td></tr>
+	    <tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr>
+	    <tr><td>&nbsp;</td></tr>
+	    <tr><td>&nbsp;</td></tr>
+	    <tr><td>&nbsp;</td></tr>
+	    <tr><td>&nbsp;</td></tr>
+	    <tr><td>&nbsp;</td>
+	    </tr>
+	    </table></td>
+	    </tr>
+	    <tr>
+	    <td height="5%" align="right">
+	    <table border="0" cellpadding="1" cellspacing="0">
+	    <tr> 
+	    <td align="right" class="bodytxt2" > 
+	    © Copyrights. All rights reserved. atom Technologies Ltd. </td>
+	    </tr>
+	    </table>
+	    </td>
+	    </tr>
+	    </table>
+	    <FORM ACTION='http://davpgcvns.ac.in/student_portel/student/response.php' METHOD="POST">
+
+<input name='mmp_txn' type='hidden' value='0'/><input name='mer_txn' type='hidden' value='1653527'/><input name='amt' type='hidden' value='25000.00'/><input name='prod' type='hidden' value='DAV_PG'/><input name='date' type='hidden' value='Thu Aug 19 13:38:18 IST 2021'/><input name='bank_txn' type='hidden' value='NA'/><input name='f_code' type='hidden' value='F'/><input name='clientcode' type='hidden' value='MDA3'/><input name='bank_name' type='hidden' value='NA'/><input name='merchant_id' type='hidden' value='29062'/><input name='discriminator' type='hidden' value='NA'/><input name='desc' type='hidden' value='421-Missing mandatory parameter - SIGNATURE'/><input name='udf9' type='hidden' value=''/><input name='signature' type='hidden' value='8f7151a6c76d747738a07fda5440a48be186bbfd72a70b2913f66a3e0ee215b6da422e40653904ee9385d00dac1049643a66981711c32af14059b1fbde5a02db'/>
+		</FORM>
+</BODY>
+		
+<SCRIPT type="text/JavaScript">
+document.forms[0].submit(); //internal submit
+</SCRIPT>
+</HTML>
+2021-08-19 13:38:18 - https://payment.atomtech.in/paynetz/epi/fts?&ttype=NBFundTransfer&tempTxnId=&token=&txnStage=1

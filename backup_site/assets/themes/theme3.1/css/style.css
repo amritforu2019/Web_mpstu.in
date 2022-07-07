@@ -1,0 +1,36 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+
+body{font-family: 'Open Sans', sans-serif;}
+
+.header{background:#F3F3F3; min-height: 75px;
+-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.26);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.26);
+border-bottom:2px solid #0d4a81;
+	position: fixed;
+	z-index: 99;
+}
+.d-logo{display: inline-block; margin-top: 5px;}
+.h-links{list-style: none; padding: 0px; margin-top: 5px;}
+.h-links li{float:left; width:180px; text-align: center; height:65px; line-height: 25px; padding-top: 5px;}
+.h-links li a{color:#0d4a81; font-size:14px;}
+.h-links li a{color:#0d4a81; font-size:14px;}
+.h-links li a:hover{text-decoration: none;}
+
+.table{font-size:14px;}
+
+.footer{font-size: 14px;}
+.footer a{color:#ff7f00;}
+.footer a:hover{color:#ff7f00; text-decoration: none;}
+
+@media only screen and (max-width: 640px) {
+	.header{padding-bottom: 5px;}
+	.drawer--sidebar.drawer--left .drawer-contents{padding-top:165px;}
+	.h-links li{float:left; width:50px; text-align: center; height:50px; line-height: 45px; background: #fff; margin: 2px; border-radius: 50%;}
+	.h-links li a{color:#0d4a81; font-size:12px;}
+	.h-links li a span{display: none;}
+}

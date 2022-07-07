@@ -1,0 +1,6 @@
+student id,enrolment  no,class,session,subj,year,std name,parent name,contact no,alternate no,caste,religion,feesamt,Addrress,Date Of Birth
+1234,111,BA I,2016-17,Hindi,2016,name,XYZ,1234567890,987654321,Gen,Hindu,3500,,1999-05-01
+1235,112,BA I,2016-17,Hindi,2016,name,XYZ,1234567890,987654321,Gen,Hindu,3500,,1999-05-02
+1236,113,BA I,2016-17,Hindi,2016,name,XYZ,1234567890,987654321,Gen,Hindu,3500,,1999-05-03
+1237,114,BA I,2016-17,Hindi,2016,name,XYZ,1234567890,987654321,Gen,Hindu,3500,,1999-05-04
+1238,115,2,3,4,5,6,7,8,9,10,11,12,13,1999-05-05

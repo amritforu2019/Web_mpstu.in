@@ -1,0 +1,326 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+@font-face {
+	font-family: kruti;
+	src: url(../webfonts/Kruti_Dev_010.ttf);
+}
+
+a:hover{text-decoration:none;}
+
+.header{
+	background: #004388 url(../assets/links/images/background-city.png) no-repeat top left;
+	border-bottom: 1px solid #0054ab;
+	padding: 8px 15px;
+}
+
+.logo{
+	width:120px;
+	display: block;
+	background: #fff;
+	padding: 3px;
+	border-radius: 50%;
+}
+
+.stroke{
+	height:1px;
+	width:100%;
+	background: #fff;
+	margin-bottom: 5px;
+}
+
+.logo-name-hindi{
+	color:#fff;
+	padding-bottom: 5px;
+	font-family: kruti;
+	padding-top: 10px;
+}
+
+.logo-name{
+	color:#fff;
+	padding-bottom: 5px;
+}
+
+.bg-navyblue{
+	background:#011c38;
+}
+
+.bg-navyblue-light{
+	background:#004388;
+}
+
+.border-nb-light{
+	border-color:#004388;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding:0px 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color:#fff;
+	font-size: 14px;
+}
+
+.container-padding{
+	padding:45px 15px;
+}
+
+p{
+	font-size:14px;
+	line-height: 25px;
+}
+
+.btm-border{
+	height:2px;
+	width:100%;
+	background:#004388;
+	margin-bottom: 15px;
+}
+
+.br-0{
+	border-radius:0px;
+}
+
+.our-links{
+	list-style: none;
+	padding: 0px;
+}
+.our-links li{}
+.our-links li a{
+	font-size: 13px;
+	color:#011c38;
+	display: block;
+	padding: 8px 15px;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+}
+.our-links li a:hover{
+	text-decoration: none;
+	color: #011c38;
+	background: rgba(0,67,136,.1);
+}
+
+.our-links li a i{
+	position:absolute;
+	right: 15px;
+	top: 10px;
+}
+
+.sub-menu{
+	list-style:none;
+	padding-left:15px;
+	display: none;
+}
+
+.footer{
+	background:#1E1E1E;
+	font-size: 14px;
+}
+
+.footer ul{
+	list-style: none;
+	padding: 0px;
+}
+.footer ul li{}
+.footer ul li a{
+	font-size:14px;
+	color:#9A9A9A;
+}
+.footer ul li a:hover{
+	text-decoration:none;
+	color: #CDCDCD;
+}
+
+.bg-footer{
+	background:#111111;
+}
+
+.updates{ padding-left: 20px;}
+.updates li{}
+.updates li a{font-size: 13px; display: block; color:#FF7600; margin-bottom: 10px;}
+.updates li a:hover{text-decoration: none; color: #737373;}
+
+.our-mission{padding-left: 20px;}
+.our-mission li{
+	font-size:14px;
+	margin-bottom: 10px;
+	line-height: 22px;
+}
+
+.contact-form .form-control{font-size:14px;}
+
+.const-college{padding: 0px; list-style: none; float: left; width: 100%; margin-bottom: 30px;}
+.const-college li{
+	float: left;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	padding: 0px 15px;
+	margin: 5px;
+	font-size: 13px;
+	border: 1px solid #FF5973;
+}
+
+.const-college li:hover{
+	background: #FF5973;
+	color: #fff;
+}
+
+.affil-college{padding: 0px; list-style: none; float: left; width: 100%; margin-bottom: 30px;}
+.affil-college li{
+	float: left;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	padding: 0px 15px;
+	margin: 5px;
+	font-size: 13px;
+	border: 1px solid #83C3FF;
+}
+
+.affil-college li:hover{
+	background: #83C3FF;
+}
+
+.doc-req{padding-left: 15px;}
+.doc-req li{
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.centers{ padding-left:15px;}
+.centers li{
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+.admission{
+	list-style: upper-alpha;
+	padding-left: 20px;
+}
+.admission li{
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+
+.navbar-brand{display: none;}
+
+.f-left{float:left;}
+.f-right{float:right;}
+
+.listing{ padding-left: 15px;}
+.listing li a{display:block; height:30px; color:#000;}
+.listing li a:hover{color:#999;}
+
+marquee a{
+	font-size:12px;
+}
+
+.marquee-top{padding:0px; list-style:none; width:100%;margin-bottom:7px;}
+.marquee-top li{float:left;}
+.marquee-top li a{
+	color:white;
+	display:inline-block;
+	font-size: 14px;
+	margin-right:5px;
+}
+.marquee-top li a span{
+	color:#333333;
+}
+.marquee-top li a:hover{text-decoration:none;}
+
+@media only screen and (max-width: 640px) {
+	.ghadi-pahle-istimal-kare{
+		display:none;
+	}
+    .navbar-brand{display: block; text-transform: uppercase;}
+	.navbar-expand-lg .navbar-nav .nav-link{padding:5px 0px;}
+	.logo-name-hindi, .logo-name, .stroke{display:none;}
+	.logo{
+		width:100px;
+		display: block;
+		background: #fff;
+		padding: 3px;
+		border-radius: 50%;
+		margin: auto;
+	}
+	.f-left{float:none; text-align: center; margin-bottom: 5px;}
+	.f-right{float:none; text-align: center; margin-bottom: 5px;}
+}
+marquee a:hover{
+	text-decoration:underline;
+}
+.our-links .active a{
+	text-decoration: none;
+	color: red;
+	background: rgba(0,67,136,.1);
+}
+.ghadi-pahle-istimal-kare{
+	float:right;
+}
+.header-top{
+	background-color: #c82929;
+    color: white;
+}
+.header-top1{
+	background-color:#FF8600;
+    color: white;
+}
+.new-image{
+	width:30px;
+}
+
+.new_tab nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+.new_tab nav > div a.nav-item.nav-link,
+.new_tab nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 5px 5px;
+    color:#fff;
+	font-size:13px;
+    background:#c82929;
+    border-radius:0;
+}
+.new_tab nav > div a.nav-item.nav-link
+{
+  border: none;
+    padding: 5px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+.new_tab nav > div a.nav-item.nav-link.active:after
+ {
+  
+}
+.new_tab .tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #c82929;
+    border-bottom:5px solid #c82929;
+    padding:5px;
+}
+
+.new_tab nav > div a.nav-item.nav-link:hover,
+.new_tab nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #c82929;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+.dropdown-menu{ background-color: #004388; }
+.dropdown-item{ color:#ffffff; } 

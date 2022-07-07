@@ -1,0 +1,1 @@
+﻿!function(e){"use strict";e(document).ready(function(){Array.prototype.slice.call(document.querySelectorAll(".js-switch")).forEach(function(c){var t=e(c).data("size"),o={color:"#009688"};void 0!==t&&(o.size=t);new Switchery(c,o)})})}(jQuery);
