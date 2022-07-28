@@ -1,0 +1,53 @@
+.button-wrap .bttn {
+    width: 150px;
+    background: #FFC000;
+    color: #fff;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 0;
+    padding-left: 30px;
+}
+
+pre {
+    font-family: monospace;
+    background-color: #fFF9f9;
+    border: #bb7799 1px solid;
+    color: #440011;
+    font-size: 100%;
+    width: 80%;
+	overflow: auto;
+	word-spacing: normal;
+	word-wrap: normal;
+	padding-top: 15px;
+}
+
+a.options {
+	padding: 5px 10px;
+	background: #FFC000;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 10px;
+	
+}
+.option-wrap{
+	margin-bottom: 10px;
+	background: #eee;
+	padding: 10px 0 10px 10px;
+	width: 80%;
+}
+
+@media (max-width: 980px){
+	.browser-size{
+		display: none;
+	}
+}
+@media (max-width: 640px){
+	.option-wrap, pre{
+		width: 100%;
+	}
+}
+/******** ie11 scroll bar fix *********/
+@-ms-viewport {
+    width: auto !important;
+}
+

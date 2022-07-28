@@ -1,0 +1,295 @@
+/************************
+*************************
+    Mobile Menu v1.0
+    (c) 2015 George Lieu
+    licensed under MIT
+************************
+************************/
+html {
+  overflow-x: hidden;
+}
+
+#page {
+  position: relative;
+  left: 0;
+}
+
+
+.mmPushBody {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#mobile-menu {
+  position: absolute;
+  top: 0;
+  background: #4d9c1a;
+  z-index: 99999;
+  -webkit-box-shadow: 0 1px 8px #555555;
+  -moz-box-shadow: 0 1px 8px #555555;
+  -o-box-shadow: 0 1px 8px #555555;
+  box-shadow: 0 1px 8px #555555;
+  display: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  border-right: 1px solid #7db14f;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+  line-height: 1.42857;
+}
+
+.mobile-menu {
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  padding-left: 0;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mobile-menu ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+.mobile-menu li:hover { background-color:#fc5a0a;}
+.mobile-menu ul li:hover { background-color:#0060bf;}
+.mobile-menu ul .expand {
+  background: #0053a6;
+}
+.mobile-menu .mm-search {
+  height: 50px;
+  background-color: #555555;
+  color: #555555;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.mobile-menu .input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.mobile-menu .input-group .form-control:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.mobile-menu .input-group .form-control {
+  display: table-cell;
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.mobile-menu .input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+  width: 1%;
+  vertical-align: middle;
+  display: table-cell;
+}
+.mobile-menu .input-group-btn:first-child > .btn {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.mobile-menu .input-group-btn > .btn {
+  position: relative;
+}
+.mobile-menu .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 1.42857;
+  border-radius: 8px;
+}
+.mobile-menu .form-control {
+  height: 18px;
+  padding: 6px 0;
+  font-size: 15px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 8px;
+  border: 0;
+}
+.mobile-menu .btn-default {
+  height: 30px;
+  border: 0;
+  padding: 4px 5px;
+  background-color: white;
+}
+.mobile-menu .btn-default:hover {
+  background-color: white;
+}
+.mobile-menu .btn-default:focus {
+  background-color: white;
+}
+.mobile-menu .btn-default:active {
+  background-color: white;
+}
+.mobile-menu .home {
+  background-color: #004488;
+  color: #fff !important;
+  height: 43px;
+  overflow: hidden;
+}
+.mobile-menu .home a { color:#fff;}
+.mobile-menu .home i {
+  padding-right: 5px;
+  color: #fff !important;
+}
+.mobile-menu .home a.active {
+  color: #fff !important;
+}
+.mobile-menu .expand {
+  right: 0;
+  position: absolute;
+  border-left: 1px solid #7db14f;
+  padding: 0 10px;
+  color: #fff;
+  margin-left: 100px;
+}
+.mobile-menu .expand:hover {
+  cursor: pointer;
+}
+.mobile-menu li {
+  display: block;
+  border-top: 1px solid #7db14f;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  padding-left: 0;
+  position: relative;
+}
+.mobile-menu li a {
+  display: block;
+  overflow: hidden;
+  white-space: normal;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 15px;
+}
+.mobile-menu li ul li a { color:#000;}
+.mobile-menu li ul li a:hover { color:#fff;}
+.mobile-menu li a.active {
+  color: #fff;
+}
+.mobile-menu li li a:focus {
+  color: #fff;
+}
+.mobile-menu li li {
+  background: #387113;
+}
+.mobile-menu li li a {
+  color:#fff !important;
+  padding-left: 25px;
+}
+.mobile-menu li li a:hover { color:#ffff00 !important;}
+.mobile-menu li li li a {
+	color:#fff !important;
+}
+.mobile-menu li li li a:hover {
+	color:#fff !important;
+}
+.mobile-menu li li li li a { color:#000 !important;}
+.mobile-menu li li li li a:hover { color:#000;}
+.mobile-menu li li li {
+  background: #7db14f;
+  color:#fff;
+}
+.mobile-menu li li li li {
+  background: #dddddd;
+  color:#fff;
+}
+.mobile-menu li li li:hover {
+  background: #7db14f;
+}
+.mobile-menu li li li li:hover {
+  background: #0d86ff;
+}
+.mobile-menu li li li a {
+  padding-left: 35px;
+}
+.mobile-menu li li li li a {
+  padding-left: 45px;
+}
+.mobile-menu .social a {
+  float: left;
+  padding: 0;
+  margin: 10px 0 10px 15px;
+}
+.mobile-menu .social i {
+  font-size: 22px;
+  color: #01c7c5;
+}
+.mobile-menu input.simple:focus {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.mobile-menu [class^="icon-"]:before {
+  margin-right: 0;
+  margin-left: 0;
+}
+.mobile-menu [class*=" icon-"]:before {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.mm-toggle-wrap {
+  color: white;
+  width: 100%;
+  height: 45px;
+  background: #4d9c1a;
+  line-height: 1;
+  overflow: hidden;
+}
+
+.mm-toggle {
+  cursor: pointer;
+  font-size: 22px;
+  display: none;
+  padding: 12px 13px;
+  width: auto;
+  float: left;
+  background: #4d9c1a;
+  height: 45px;
+}
+
+@media (max-width: 980px) {
+  .mm-toggle {
+    display: block;
+	
+  }
+  .mm-toggle i {
+	  padding-right:20px;
+  }
+  .mm-toggle .mm-label {
+    margin-left: 3px;
+	padding-left:10px;
+  }
+}
+@media (max-width: 480px) {
+  .mm-toggle .mm-label {
+    display: none;
+  }
+}
