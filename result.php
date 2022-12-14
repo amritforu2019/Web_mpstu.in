@@ -1,5 +1,6 @@
 <?php ob_start();
-require_once("con_base/functions.inc.php");
+
+  require_once("con_base/functions.inc.php");
  ?>
 <!DOCTYPE html>
 <html lang="en">

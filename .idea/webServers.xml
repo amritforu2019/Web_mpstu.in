@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="97c75200-a742-4627-a075-b7f26160afec" name="mpstu.in" url="http://mpstu.in">
+      <webServer id="97c75200-a742-4627-a075-b7f26160afec" name="mpstu.in" url="http://mpstu.in ">
         <fileTransfer rootFolder="/domains/mpstu.in/public_html" host="mpstu.in" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
